@@ -9,4 +9,9 @@
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
+
+[[redirects]]
+  from = "/media/*"
+  to = "/.netlify/functions/api/media/:splat"
+  status = 200
   
